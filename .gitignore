@@ -1,0 +1,27 @@
+# --- Python & NAZCA ---
+__pycache__/
+*.py[cod]
+*.so
+.env
+.venv
+env/
+venv/
+
+# --- KLayout & GDSII ---
+# Ignoramos los GDS generados automáticamente para no llenar el repo
+# (Solo subimos los scripts .py que los generan, o versiones "Release" finales)
+*.gds
+*.oas
+*.lyp
+*.lyt
+
+# --- Hardware / CAD ---
+# Archivos temporales o de bloqueo de CAD
+~$*
+*.bak
+*.bkp
+*.log
+
+# --- OS System Files ---
+.DS_Store
+Thumbs.db
